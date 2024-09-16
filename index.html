@@ -9,9 +9,15 @@
 </head>
 <body>
     <div id="root"></div>
-    <!-- Inclure React et ReactDOM depuis les CDNs -->
+
+    <!-- Inclusion de React et ReactDOM depuis les CDNs -->
     <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
-    <script src="script.js"></script>
+    
+    <!-- Inclusion de Babel pour transpiler le JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Ton script en JSX, transpilé à la volée par Babel -->
+    <script type="text/babel" src="script.js"></script>
 </body>
 </html>
