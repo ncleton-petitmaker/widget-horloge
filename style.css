@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #C1815C;
+    color: white;
+    font-family: sans-serif;
+}
+
+#root {
+    text-align: center;
+}
+
+.heure {
+    font-size: 6rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.jour {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+#root {
+    text-align: center;
+    border-radius: 15px; /* Ajuste le rayon selon tes préférences */
+    overflow: hidden; /* Empêche les éléments de déborder des bords arrondis */
+}
+body, #root {
+    margin: 0; /* Supprime les marges pour éviter les débordements */
+    padding: 0; /* Supprime les espacements internes */
+    overflow: hidden; /* Masque les barres de défilement */
+}
