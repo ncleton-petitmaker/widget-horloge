@@ -7,10 +7,15 @@ body {
     background-color: #C1815C;
     color: white;
     font-family: sans-serif;
+    margin: 0; /* Supprime les marges pour éviter les débordements */
+    padding: 0; /* Supprime les espacements internes */
+    overflow: hidden; /* Masque les barres de défilement */
 }
 
 #root {
     text-align: center;
+    border-radius: 15px; /* Ajuste le rayon selon tes préférences */
+    overflow: hidden; /* Empêche les éléments de déborder des bords arrondis */
 }
 
 .heure {
@@ -22,14 +27,4 @@ body {
 .jour {
     font-size: 2rem;
     text-transform: uppercase;
-}
-#root {
-    text-align: center;
-    border-radius: 15px; /* Ajuste le rayon selon tes préférences */
-    overflow: hidden; /* Empêche les éléments de déborder des bords arrondis */
-}
-body, #root {
-    margin: 0; /* Supprime les marges pour éviter les débordements */
-    padding: 0; /* Supprime les espacements internes */
-    overflow: hidden; /* Masque les barres de défilement */
 }
